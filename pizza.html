@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pizza.js"></script>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+    <label for=""><h1>ORDER <span>PIZZA</span></h1></label>
+    <div class="class">
+    <label for="">Enter Name :</label>
+    <input type="text" id="name"><br><br>
+    <label for="">Enter Address :</label><br>
+    <textarea name="" id="add" cols="40" rows="5"></textarea><br><br>
+    <label for="">Enter Email:</label>
+    <input type="text" id="email"><br><br>
+    <label for="">Enter Phone no. :</label>
+    <input type="text" id="no"><br><br>
+    <label for="">Select Pizza Type :</label><br><br>
+
+    
+    <input type="checkbox">
+    <label for="">Veg </label>
+    <select id="veg" oninput="vegprize()">
+        <option value="">select veg pizza...</option>
+        <option value="spicy tripl tango">spicy tripl tango</option>
+        <option value="Margherita">Margherita</option>
+        <option value="Peppy Paneer">Peppy Paneer</option>
+        <option value="corn pizza">corn pizza</option>
+    </select><br><br>
+
+    <input type="checkbox">
+    <label for="">Non-veg </label>
+    <select id="nonveg" oninput="nonvegprize()">
+    <option value="">select Non-veg pizza...</option>
+    <option value="Barbeque chicken">Barbeque chicken</option>
+    <option value="Hot stuff">Hot stuff</option>
+    <option value="chicken Tandoori Pizza">chicken Tandoori Pizza</option>
+    <option value="chicken onion Pizza">chicken onion Pizza</option>
+    </select>
+<br><br>
+    <label for=""> Select Size :</label><br>
+   <input type="radio" name="abc" id="Regular">Regular <br>
+   <input type="radio" name="abc" id="medium">Mediun <br>
+   <input type="radio" name="abc" id="large">Large<br>
+   <br>
+
+   <label for=""> Select Toppings:</label>
+   <select name="" id="Toppings">
+    <option value=""></option>
+    <option value="mushroom">mushrooms</option>
+    <option value="onion">onion</option>
+    <option value="capsicum">capsicum</option>
+    <option value="tomato">Tomato</option>
+   </select>
+<br><br>
+<input type="checkbox">Add extra cheese <br><br>
+<label for="">Apply coupon :</label><br>
+<input type="text" placeholder="Enter coupon code here" id="code"> 
+<button onclick="checkcode()">Apply</button>
+<br><br>
+
+<button onclick="bill()">Generate bill</button>
+ 
+</div>
+</body>
+</html>

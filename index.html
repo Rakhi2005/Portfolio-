@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://kit.fontawesome.com/18ffeb2ad7.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	
+	<div id="header">
+        <div class="container">
+            <div class="wrap">
+            <h2 class="logo">Porfo<span>lio</span></h2>
+            <nav>
+                
+                <ul class="navlist" id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#services">MY SKILLS</a></li>
+                    <li><a href="#portfolio">MY PROJECTS</a></li>
+                    
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="colsemenu()"></i>
+                </ul>
+           
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+            <div class="header-text">
+               
+                <h1>Hello , I'<span>am</span> <br><span>Rakhi </span> Vikas Mahajan <br>From Jalgaon</h1>
+                <p> Web <span>Designer</span>!!</p>
+            </div>
+            <div class="images">
+                <img src="rakhi.jpg" class="girl">
+            </div>
+        </div>
+
+    </div>
+
+	
+
+	<!---------about Section --------------->
+	
+	<section class="About" id="About">
+		<div class="about-img">
+			<img src="img3.jpeg" alt="">
+		</div>
+<div class="about-content">
+<h2 class="heading">About <span>Me</span></h2>
+<h3><span>Web </span> Developer!</h3>
+<p id="pabout">Hi, I'm Rakhi Mahajan, an IT student passionate about technology and problem-solving. I have a strong interest in web development.I am currently pursuing a diploma program in Information Technology at Government Polytechnic,Jaglaon. I have acquired a comprehensive knowledge in programming languages such as C++,Java, and JavaScript. Currently, I am working on my capstone projects[Yoga Website] that demonstrate my skills and problem-solving abilities in Web-Development & Designing. In my free time, I enjoy exploring emerging technologies and keeping up with industry trends.My ultimate goal is to work as a software engineer in a dynamic and innovative company where I can contribute to meaningful projects.</p>
+
+</div>
+	</section>
+
+	<!-----------Skill Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span> Skills</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-html5'></i>
+			</div>
+			<h3>HTML</h3>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-javascript'></i>
+			</div>
+			<h3>Javascipt</h3>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-java' ></i>
+			</div>
+			<h3>Java</h3>
+		</div>
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-css3'></i>
+			</div>
+			<h3>CSS</h3>
+			
+		</div>
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-c-plus-plus'></i>
+			</div>
+			<h3>C++</h3>
+			
+		</div>
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-data'></i>
+			</div>
+			<h3>Sql</h3>
+			
+		</div>
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bxl-nodejs'></i>
+			</div>
+			<h3>nodejs</h3>
+			
+		</div>
+	</div>
+
+</section>
+
+<!-----------Project Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>latest</span> Project</h2><br>
+	</div>
+	<div class="portfolio-content">
+		
+
+		<div class="row">
+			<img src="portfolio.jpg" >
+			<div class="layer">
+				<h1>Portfolio Design</h1>
+				<p>portfolio is an templet where all information about the employee is given in the animated way.</p>
+				<a href="index.html"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="pizza.jpg" >
+			<div class="layer">
+				<h1>Order Pizza Form</h1>
+				<p id="pizza">Using Html ,Css and Javascript I Develop a form which accept the user information and generates the bill for the customer.</p>
+				<a href="pizza.html"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="attendance.jpg" >
+			<div class="layer">
+				<h1>Attendance form</h1>
+				<p id="attendance">Using Html ,Css and Javascript I Develop a form in which students enter their information and Attendance Status and submit their attendance</p>
+				<a href="student.html"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me!!</span> </h1>
+                <p id="p1"><i class="fa-solid fa-paper-plane"></i> rakhimahajan2975@gmail.com</p>
+                <p id="p1"><i class="fa-solid fa-phone"></i> 9309492823</p>
+				
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+					
+                
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <input type="number" placeholder="your Mobile Number" required>
+					<textarea name="Message"  rows="6" placeholder="How Can I Help You"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+<!---------End Section---------->
+<section class="end">
+	
+	<div class="top">
+		<a href="#header"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+<script>
+	var side=document.getElementById("sidemenu");
+	function openmenu(){
+		side.style.right="0";
+		console.log("ok")
+
+	}
+	function closemenu(){
+		side.style.right="-200px";
+		
+	}
+</script>
+</body>
+
+</html>
